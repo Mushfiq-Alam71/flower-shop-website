@@ -131,8 +131,13 @@ p {
   justify-content: space-around;
   align-items: center;
 }
-.hot-deal-text {
-  max-width: 445px;
+#hot-deal .hot-deal-text {
+  width: 75%;
+  max-width: 550px;
+  text-align: center;
+}
+#hot-deal .hot-deal-text * {
+  margin-bottom: 24px;
 }
 .hot-deal-text h2 {
   color: #272727;
